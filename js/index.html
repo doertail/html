@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+ </head>
+ <body>
+    <div class ="alert-box" id="alert"> 
+        <p class = "title1">알림창 어서오고</p>
+        <button id ="close">닫기</button>
+    </div>
+
+    <button onclick="newBox('Id를 입력하세요');">버튼1</button> 
+    <button onclick="newBox('비밀번호를 입력하세요.')">버튼2</button>
+    
+    <script>
+
+        document.getElementById('close').addEventListener('click', function(){
+            document.getElementById('alert').style.display='none'
+        });
+
+        function newBox(text){
+            document.getElementsByClassName('title1')[0].innerHTML=text;
+            document.getElementById('alert').style.display="block";
+        }
+
+    </script>
+</body>
+</html>

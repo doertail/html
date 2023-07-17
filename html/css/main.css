@@ -1,0 +1,162 @@
+.main-background {
+    width: 100%;
+    height: 1700px;
+    background-image: url("../단추.jpeg");
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    filter: brightness(70%);
+    padding: 1px;
+    position: relative;
+    
+}
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    position: absolute; 
+    bottom: 100px;
+}
+.sub-box {
+    width: 30%;
+    max-width: 600px;
+    background-color: #eee;
+    position: absolute; 
+    border: none;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    height: 30;
+    bottom: -100px;
+    /* bottom: 100px; */
+    z-index: -1;
+}
+.main-title {
+    color: white;
+    font-size: 50px;
+    margin-top: 400px;
+    text-align: center;
+}
+
+.main-text{
+    color: beige;
+    font-size: 30px;
+}
+.puppy{
+    width: 300px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.color{
+    color: crimson;
+    font-size: 30px
+}
+
+.content {
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    margin: 10px;
+    padding: 40px;
+    border: 4px solid black;
+    border-radius: 10px;
+    /* display: block;  */
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size: 13px;
+    box-shadow: 0 1px 2px;
+}
+
+.container{
+    width: 800px;
+    /* box-shadow: 0 1px 2px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+.blog-content{
+    width: 80%;
+    height: 200px;
+    /* background-color: #eee; */
+    float: left;
+}
+.blog-img{
+    width: 10%;
+    height: 200px;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.blog-profile{
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+.blog-name{
+    float: left;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+
+.left-up{
+    width: 80%;
+    height: 32px;
+    background: white;
+    display:inline-flex;
+}
+
+.left-menu{
+    width: 80%;
+    height: 128px;
+    background: white;
+    float: left;
+    /* display: inline-block; */
+    vertical-align: top;
+    box-shadow: 0 0.5px;
+}
+.right{
+    width: 20%;
+    height: 163px;
+    background: white;
+    float: right;
+    box-shadow: 0 0.5px;
+    /* display: inline-block; */
+}
+.bottom{
+    width: 100%;
+    height: 200px;
+    background: grey;
+    box-shadow: 0 0.5px;
+}
